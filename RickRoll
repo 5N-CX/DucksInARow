@@ -1,0 +1,28 @@
+/*
+let's rick roll!
+Saintcon2025 Get Your Rubber Duckies In A Row
+5N-CX 
+*/
+
+#include "DigiKeyboard.h"
+
+void setup() {
+  pinMode(1,OUTPUT);
+}
+
+void loop() {
+  DigiKeyboard.update();
+  DigiKeyboard.sendKeyStroke(0);
+  DigiKeyboard.delay(100);
+  DigiKeyboard.sendKeyStroke(KEY_R,MOD_GUI_LEFT);
+  DigiKeyboard.delay(100);
+  DigiKeyboard.println("cmd /k mode");  
+  DigiKeyboard.delay(300);
+  DigiKeyboard.println("start /max Chrome https://www.youtube.com/watch?v=Aq5WXmQQooo");
+
+  DigiKeyboard.delay(100000);
+  digitalWrite(1,HIGH);
+  DigiKeyboard.delay(50);
+  digitalWrite(1,LOW);
+  DigiKeyboard.delay(200);
+}
