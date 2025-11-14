@@ -1,5 +1,7 @@
 /*
-Use this script to count the # of failed logon attempts on a system through command prompt.
+Use this script to count the # of failed logon attempts on a system through command prompt. This code is used for Arduino IDE. Please follow my SaintCon presentation on Youtube for a step-by-step demo. 
+https://www.youtube.com/watch?v=OfddHMtNwCE
+You can also go to my profile to find me on LinkedIN or on Discord. 
 Administrator privileges are not required for simply reading the security log.
 5N-CX 
 */
@@ -26,7 +28,7 @@ void loop() {
   DigiKeyboard.delay(1000000);
   DigiKeyboard.println("cls"); /*Clears CMD scripts*/
   DigiKeyboard.delay(2000);
-  DigiKeyboard.println("exit"); /*Exists CMD*/
+  DigiKeyboard.println("exit"); /*Exits CMD*/
 
   DigiKeyboard.delay(100000); /*Pauses for 100 seconds*/
   digitalWrite(1,HIGH); /*Turns oh the LED*/
