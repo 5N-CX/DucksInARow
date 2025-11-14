@@ -1,12 +1,12 @@
 # DucksInARow
-Saintcon 2025 Presentation:
+Step-by-step Saintcon 2025 Presentation:
 https://youtu.be/OfddHMtNwCE?si=MtG3GHDrH6x4NM-P
 
 Get Your Rubber Duckies in a Row 
 Presented by Madeline Kaye (5N-CX) 
  
 Let’s use an ATTINY85 development board to make rubber duckies! We will program it through Arduino IDE. 
-*You are free to modify the code of your rubber ducky, as you wish, but these repositories are meant to include code that cannot be used in a malicious or illegal manner. These codes are only meant to be used for educational purposes for an individual looking to learn more about Arduino IDE, and how to use the runbox on their own offline, personal computer.*
+*You are free to modify the code of your rubber ducky, as you wish, but these repositories are meant to include code that cannot be used in a malicious or illegal manner. These codes are only meant to be used for educational purposes for an individual looking to learn more about Arduino IDE, and how to use the runbox on their own offline, personal computer. I use a burner computer to download the libraries, board manager, zadig, and other unfamiliar code, and I recommend you do the same to be safe.*
 
 
 First, download Arduino IDE from their website: www.arduino.cc/en/software 
