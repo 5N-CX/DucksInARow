@@ -1,8 +1,8 @@
 # DucksInARow
-Step-by-step Saintcon 2025 Presentation:
+My step-by-step Saintcon 2025 Presentation:
 https://youtu.be/OfddHMtNwCE?si=MtG3GHDrH6x4NM-P
 
-Get Your Rubber Duckies in a Row 
+"Get Your Rubber Duckies in a Row"
 Presented by Madeline Kaye (5N-CX) 
  
 Let’s use an ATTINY85 development board to make rubber duckies! We will program it through Arduino IDE. https://www.amazon.com/AiTrip-Digispark-Kickstarter-Attiny85-Development/dp/B0836WXQQR/ref=sr_1_2?crid=1NIANG8A31TVA&dib=eyJ2IjoiMSJ9.WMlZ_YfTi4TD17TYNrMUiWDfcOWXzDZuqR1NTeAg2Nk5Ai1Wtba7LmH8LZ_DgXp2tazVpNttP7uJb9HAt6NfiyasJc6UjyrBP4jZSpkX3O7hZPaOb-dVobyLWWHKOHaKqIKVo7_N2czQ4eDNW3yR-rs2l0Pnat4-uyfuqYQzLmflCZs1qCnkaZ6MzDTxYVOWdMBVVDMFKxskTnrPoR1_UWSEBkP4aOKR_jX5LomyN8w.RKUyVyVhQL3PldN3rpdyFIaYnGejV7VH1NVg71FXtGk&dib_tag=se&keywords=rubber%2Bducky%2Busb%2Battiny85&qid=1763144895&sprefix=rubber%2Bducky%2Busb%2Battiny8%2Caps%2C258&sr=8-2&th=1
