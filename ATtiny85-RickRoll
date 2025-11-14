@@ -1,5 +1,8 @@
 /*
 let's rick roll!
+This code is used for Arduino IDE. Please follow my SaintCon presentation on Youtube for a step-by-step demo. 
+https://www.youtube.com/watch?v=OfddHMtNwCE
+You can also go to my profile to find me on LinkedIN or on Discord. 
 Saintcon2025 Get Your Rubber Duckies In A Row
 5N-CX 
 */
@@ -15,13 +18,13 @@ void loop() {
   DigiKeyboard.sendKeyStroke(0); /*Releases all held keys, ensuring the script starts with a clean slate.*/
   DigiKeyboard.delay(400); /*Pauses for 400 milliseconds or 4 seconds*/
   DigiKeyboard.sendKeyStroke(KEY_R,MOD_GUI_LEFT); /*Simulates pressing the Windows Key + R. This opens the "Run" dialog box in Windows*/
-  DigiKeyboard.delay(400);
-  DigiKeyboard.println("cmd /c mode"); /*Executes the specified command and then terminates the Command Prompt session immediately*/  
   DigiKeyboard.delay(500);
-  DigiKeyboard.println("start /max Chrome https://www.youtube.com/watch?v=Aq5WXmQQooo"); /*Opens Rick Roll link in a maximized chrome window*/
+  DigiKeyboard.println("cmd /c mode"); /*Executes the specified command and then terminates the Command Prompt session immediately*/  
+  DigiKeyboard.delay(600);
+  DigiKeyboard.println("start /max Chrome https://www.youtube.com/watch?v=Aq5WXmQQooo"); /*Opens Rick Roll link in a maximized chrome window. Replace the URL to have it open another link on your device*/
 
   DigiKeyboard.delay(100000); /*Pauses for 100 seconds*/
-  digitalWrite(1,HIGH); /*Turns oh the LED*/
+  digitalWrite(1,HIGH); /*Turns on the LED*/
   DigiKeyboard.delay(50);
   digitalWrite(1,LOW); /*Turns off the LED*/
   DigiKeyboard.delay(200);
